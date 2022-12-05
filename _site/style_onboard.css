@@ -12,99 +12,228 @@ body{
 
 
 
-label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 100px;
-    padding: 0 80px;
-    font-weight: bold;
-    float: left;
-
-    
-}
-
-
-
-.topnav {
-    overflow: hidden;
-    background-color: #196F3D;
-    width: 100%;
-
-}
-
-
-.topnav a {
-        float: right;
-        display: block;
-        color: #f2f2f2;
-        text-decoration: none;
-        font-size: 17px;
-        line-height: 100px;
-        margin-right: 20px;
-}
-
-
-.dropdown {
-    float: right;
-    overflow: hidden; }
-  
-.dropdown .dropbtn {
-    font-size: 17px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 0px 1px;
-    background-color: inherit;
-    font-family: inherit;
-    margin-right: 14px;
-    line-height: 100px;
-    box-shadow: 0px 8px 16px 0px #196F3D;}
-
-
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: none;
-    min-width: 160px;
-    min-height: 1em;
-    z-index: 1;
-    box-shadow: 0px 8px 8px 0px #196F3D;
-    height: 30%;}
-    
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 0px 0px;
+a {
     text-decoration: none;
+    
+}
+    
+li {    
+    list-style: none;
+    
+}
+
+
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: space-between;
+    
+    padding: 20px;
+    
+    background-color: #196F3D;
+    
+    color: #fff;
+
+    height: 10%;
+    
+    }
+    
+    .nav-links a {
+    
+    color: #fff;
+    
+    
+    }
+    
+    /* LOGO */
+    
+    .logo {
+    
+    font-size: 2vw;
+    font-weight: bold;
+
+    padding:0 3% ;
+    
+    }
+    
+    /* NAVBAR MENU */
+    
+    .menu {
+    
+    display: flex;
+        
+    font-size: 1vw;
+    
+    }
+    
+    .menu li:hover {
+    
+    background-color: #196F3D;
+    
+    border-radius: 5px;
+    
+    transition: 0.3s ease;
+    
+    }
+    
+    .menu li {
+    
+    padding: 5px 14px;
+    
+    }
+    
+    /* DROPDOWN MENU */
+    
+    .services {
+    
+        position: relative;
+        
+    }
+
+    
+    .dropdown {
+    
+    background-color: #196F3D;
+    
+    padding: 1em 0;
+    
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    
+    display: none;
+    
+    border-radius: 8px;
+    
+    
+    }
+
+    
+    
+    .dropdown li + li {
+    
+    margin-top: 10px;
+    
+    }
+
+    .services:hover .dropdown {
+    
+        display: block;
+        
+    }
+    
+    .dropdown li {
+    
+    padding: 0.5em 1em;
+    
+    width: 8em;
+    
+    text-align: center;
+    
+    }
+    
+    .dropdown li:hover {
+    
+    background-color: #596d61;
+    
+    }
+    
+    
+  
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+
+
+/* CHECKBOX HACK */
+
+input[type=checkbox]{
+
+    display: none;
+    
+    }
+    
+    /*HAMBURGER MENU*/
+    
+    .hamburger {
+    
+    display: none;
+    
+    font-size: 1.5vw;
+    
+    user-select: none;
+    
+    }
+    
+    /* APPLYING MEDIA QUERIES */
+    
+    @media (max-width: 768px) {
+    
+    .menu {
+    
+    display:none;
+    
+    position: absolute;
+    
+    background-color:#196F3D;
+    
+    right: 0;
+    
+    left: 0;
+    
+    text-align: center;
+    
+    padding: 16px 0;
+    
+    }
+    
+    .menu li:hover {
+    
+    display: inline-block;
+    
+    background-color:#596d61;
+    
+    transition: 0.3s ease;
+    
+    }
+    
+    .menu li + li {
+    
+    margin-top: 12px;
+    
+    }
+    
+    input[type=checkbox]:checked ~ .menu{
+    
     display: block;
-    text-align: left;
-    margin-left:16px;
-    width: 100%;
-    line-height: 39px;
-    box-shadow: #196F3D;}
-
-
-  
-.topnav a:hover, .dropdown:hover .dropbtn {
-    color: white;
-    box-shadow: #196F3D;}
-
-
-  
-.dropdown-content a:hover {
-    color: #196F3D;
-    width: 80%;
-    box-sizing: border-box;
-    box-shadow: #196F3D;}
-
-  
-.dropdown:hover .dropdown-content {
+    
+    }
+    
+    .hamburger {
+    
     display: block;
-    height: 160px;
-    box-shadow: #e9efec;
-    background-color: white;
-    height: 8%;}
+    
+    }
+    
+    .dropdown {
+    
+    left: 50%;
+    top: 0;
+    transform: translateX(35%);
+    margin-top: 0;
+    }
+    
+    .dropdown li:hover {
+    
+    background-color: #596d61;
+    display: inline-block;
+    
+    }
+    
+    }
 
 .header h1{
 

@@ -67,72 +67,31 @@
         <p class="title">Principal Investigator</p>
         <p>Klaus serves as the Hodgson Distinguished Professor of Engineering.
            Before joining Dartmouth Engineering, Klaus Keller was a professor 
-           <span id="points1">...</span>
-           <span class="texts" id="moreText1">
-           of geosciences at Penn State where he directed the Center for Climate Risk Management.
-            Prior to that, he worked as a research scientist and lecturer at Princeton University 
-            and as an engineer in Germany. Professor Keller graduated from Princeton with
-             a PhD in civil and environmental engineering. He received master’s degrees from MIT 
-             and Princeton, as well as a Diplom-Ingenieur degree from the Technische Universität Berlin.
-              His research addresses two interrelated questions. First, how can we mechanistically understand past
-               and potentially predict future changes in the Earth system? Second, how can we use this information 
-               to design sustainable, scientifically sound, technologically feasible, economically efficient,
-                and ethically defensible risk management strategies? He analyzes these questions by mission-oriented 
-                basic research covering a wide range of disciplines such as engineering, Earth sciences, economics,
-                 philosophy, decision science, and statistics. He contributed to reports from the Intergovernmental
-                  Panel on Climate Change, co-edited an open source textbook, and published more than 150 peer-reviewed studies.
-                   His research, mentoring, and service have been recognized by several prizes, for example the 2019 Penn 
-                   State Outstanding Postdoc Mentor Award.</span></p>
-        <button onclick="toggleText1()" id="textButton1">
-          Show More
-        </button>
-                   
-           
-        <script>
-          function toggleText1() {
-           
-                     // Get all the elements from the page
-            var points1 = 
-               document.getElementById("points1");
-           
-            var showMoreText1 =
-               document.getElementById("moreText1");
-           
-            var buttonText1=
-               document.getElementById("textButton1");
-           
-                     // If the display property of the dots 
-                     // to be displayed is already set to 
-                     // 'none' (that is hidden) then this 
-                     // section of code triggers
-            if (points1.style.display === "none") {
-           
-                         // Hide the text between the span
-                         // elements
-              showMoreText1.style.display = "none";
-           
-                         // Show the dots after the text
-              points1.style.display = "inline";
-           
-                         // Change the text on button to 
-                         // 'Show More'
-              buttonText1.innerHTML = "Show More"; }
-           
-                     // If the hidden portion is revealed,
-                     // we will change it back to be hidden
-            else {
-           
-                         // Show the text between the
-                         // span elements
-              showMoreText1.style.display = "inline";
-           
-                         // Hide the dots after the text
-              points1.style.display = "none";
-           
-                         // Change the text on button
-                         // to 'Show Less'
-              buttonText1.innerHTML = "Show Less";}}
-        </script>
+      
+        <a href="#openModal">Show More</a>
+
+        <div id="openModal" class="modalDialog">
+	      <div>
+		        <a href="#close" title="Close" class="close">X</a>
+		        <h2>Prof. Klaus Keller</h2>
+		        <p>Klaus serves as the Hodgson Distinguished Professor of Engineering.
+              Before joining Dartmouth Engineering, Klaus Keller was a professor
+              of geosciences at Penn State where he directed the Center for Climate Risk Management.
+              Prior to that, he worked as a research scientist and lecturer at Princeton University 
+              and as an engineer in Germany. Professor Keller graduated from Princeton with
+               a PhD in civil and environmental engineering. He received master’s degrees from MIT 
+               and Princeton, as well as a Diplom-Ingenieur degree from the Technische Universität Berlin.
+                His research addresses two interrelated questions. First, how can we mechanistically understand past
+                 and potentially predict future changes in the Earth system? Second, how can we use this information 
+                 to design sustainable, scientifically sound, technologically feasible, economically efficient,
+                  and ethically defensible risk management strategies? He analyzes these questions by mission-oriented 
+                  basic research covering a wide range of disciplines such as engineering, Earth sciences, economics,
+                   philosophy, decision science, and statistics. He contributed to reports from the Intergovernmental
+                    Panel on Climate Change, co-edited an open source textbook, and published more than 150 peer-reviewed studies.
+                     His research, mentoring, and service have been recognized by several prizes, for example the 2019 Penn 
+                     State Outstanding Postdoc Mentor Award.</p>
+	      </div>
+        </div>          
         
         <button class="button1" 
           onclick="window.location.href='https://engineering.dartmouth.edu/community/faculty/klaus-keller';">Learn more</button>

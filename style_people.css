@@ -255,6 +255,8 @@ input[type=checkbox]{
       display: block;
 
     }
+
+    
   }
   
 
@@ -278,19 +280,20 @@ input[type=checkbox]{
   
   .title {
     color: grey;
-    font-size:1vw;
-    height: 2vw;
+    font-size:15px;
+    height: 30px;
 
 
   }
   
-  .container h2 { font-size:1.5vw;
+  .container h2 { font-size:20px;
+    height:40px ;
 
   }
 
-  .bio { font-size:1vw;
+  .bio { font-size:15px;
 
-    height: 6vw;
+    height: 100px;
 
   }
 

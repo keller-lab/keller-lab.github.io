@@ -253,6 +253,7 @@ input[type=checkbox]{
     .column {
       width: 100%;     
       display: block;
+
     }
   }
   
@@ -277,14 +278,20 @@ input[type=checkbox]{
   
   .title {
     color: grey;
-    font-size:80%;
+    font-size:1vw;
+    height: 2vw;
+
 
   }
   
-  .container h2 { font-size:100%;
+  .container h2 { font-size:1.5vw;
+
   }
 
-  .container p { font-size:80%;
+  .bio { font-size:1vw;
+
+    height: 6vw;
+
   }
 
 

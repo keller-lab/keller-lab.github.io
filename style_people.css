@@ -313,6 +313,12 @@ input[type=checkbox]{
   }
 
 
+  .openModal {
+
+    display: none; /* Hidden by default */
+
+  }
+
   .modalDialog {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -333,6 +339,7 @@ input[type=checkbox]{
   .modalDialog:target {
     opacity:1;
     pointer-events: auto;
+
   }
   
   .modalDialog > div {
@@ -363,7 +370,11 @@ input[type=checkbox]{
     font-weight: bold;
   }
 
+  .openModal2{
 
+    display: none; /* Hidden by default */
+
+  }
   .modalDialog2 {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -414,6 +425,12 @@ input[type=checkbox]{
     font-weight: bold;
   }
   
+
+  .openModal3{
+
+    display: none; /* Hidden by default */
+
+  }
   .modalDialog3 {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -460,6 +477,12 @@ input[type=checkbox]{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: Transparent;
     font-weight: bold;
+  }
+
+  .openModal4{
+
+    display: none; /* Hidden by default */
+
   }
 
   .modalDialog4 {
@@ -511,6 +534,12 @@ input[type=checkbox]{
     font-weight: bold;
   }
 
+  .openModal5{
+
+    display: none; /* Hidden by default */
+
+  }
+
   .modalDialog5 {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -557,6 +586,12 @@ input[type=checkbox]{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: Transparent;
     font-weight: bold;
+  }
+
+  .openModal6{
+
+    display: none; /* Hidden by default */
+
   }
 
   .modalDialog6 {
@@ -609,6 +644,12 @@ input[type=checkbox]{
     font-weight: bold;
   }
 
+  .openModal7{
+
+    display: none; /* Hidden by default */
+
+  }
+
   .modalDialog7 {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -644,10 +685,6 @@ input[type=checkbox]{
   }
 
 
-
-
-
-
   .button8 {
     border: none;
     outline: 0;
@@ -662,7 +699,11 @@ input[type=checkbox]{
     font-weight: bold;
   }
 
+  .openModal8{
 
+    display: none; /* Hidden by default */
+
+  }
   .modalDialog8 {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -714,6 +755,11 @@ input[type=checkbox]{
     font-weight: bold;
   }
 
+  .openModal9{
+
+    display: none; /* Hidden by default */
+
+  }
 
   .modalDialog9 {
     position: fixed;
@@ -763,6 +809,12 @@ input[type=checkbox]{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: Transparent;
     font-weight: bold;
+  }
+
+  .openModal10{
+
+    display: none; /* Hidden by default */
+
   }
 
   .modalDialog10 {
@@ -815,6 +867,12 @@ input[type=checkbox]{
     font-weight: bold;
   }
 
+  .openModal11{
+
+    display: none; /* Hidden by default */
+
+  }
+
   .modalDialog11 {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -862,6 +920,12 @@ input[type=checkbox]{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: Transparent;
     font-weight: bold;
+  }
+
+  .openModal12{
+
+    display: none; /* Hidden by default */
+
   }
 
   .modalDialog12 {
@@ -912,6 +976,12 @@ input[type=checkbox]{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: Transparent;
     font-weight: bold;
+  }
+
+  .openModal13{
+
+    display: none; /* Hidden by default */
+
   }
 
   .modalDialog13 {

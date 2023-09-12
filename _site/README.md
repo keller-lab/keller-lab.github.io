@@ -57,4 +57,8 @@ Follow the steps 1-3 of **How to Contribute** to open the webpage in your text e
 
 2- In "Alumni.html," find `<!-- Add a member -->`, copy the commented code, and change it using the member's information. Please refer to previous member entries for examples. The list is in alphabetical order. You can move that code between any two members as desired.
 
+<<<<<<< HEAD
 To submit these new adjustments to the website, follow steps 5 to 10 in **How to Contribute** section.
+=======
+To submit these new adjustments to the website, follow steps 5 to 10 in **How to Contribute** section.
+>>>>>>> 9fd1de74fc8a7a9e61cca45431e380cc4c7c9224

@@ -1188,7 +1188,6 @@ input[type=checkbox]{
     background: -o-linear-gradient(#fff, #999);
   }
 
-
   .button17 {
     border: none;
     outline: 0;
@@ -1242,6 +1241,7 @@ input[type=checkbox]{
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
   }
+
 
 /* Add a member */
 

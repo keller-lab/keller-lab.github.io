@@ -1242,6 +1242,7 @@ input[type=checkbox]{
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
   }
+
 /* Add a member */
 
 /* To add a new member to the webpage, please insert the following code into the code above and replace the necessary section. */
@@ -1327,6 +1328,7 @@ input[type=checkbox]{
     margin-top: 10px;
     font-size: 16px;
     color: #555;
+
   }
 
   .email a {

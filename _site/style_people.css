@@ -1188,6 +1188,7 @@ input[type=checkbox]{
     background: -o-linear-gradient(#fff, #999);
   }
 
+
   .button17 {
     border: none;
     outline: 0;
@@ -1241,7 +1242,6 @@ input[type=checkbox]{
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
   }
-
 /* Add a member */
 
 /* To add a new member to the webpage, please insert the following code into the code above and replace the necessary section. */
@@ -1324,18 +1324,18 @@ input[type=checkbox]{
 
 
   .email {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    font color: #196F3D;
-    text-align: left;
-    cursor: pointer;
-    width: 100%;
-    font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: Transparent;
-    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
   }
 
+  .email a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+
+  .email a:hover {
+    text-decoration: underline;
+  }
 
 

@@ -238,32 +238,40 @@ input[type=checkbox]{
 
 
 
-/* Four columns side by side */
+/* Container for all cards */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px; /* Counteracts column padding */
+}
+
+/* Flexbox-based columns */
 .column {
-    float: left;
-    width: 24.9%;
-    margin-bottom: 16px;
-    padding: 0 8px;
+  flex: 0 1 24.9%; /* Approximately 1/4 of the row */
+  margin-bottom: 16px;
+  padding: 0 8px; /* Side padding for space around each column */
+  box-sizing: border-box; /* Coupled with padding without overflowing */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 650px) {
+  .column {
+    flex: 0 1 100%; /* Full width on small screens for each column */
   }
-  
-
-  
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;     
-      display: block;
-
-    }
-
-    
-  }
+}
   
 
 
   /* Add some shadows to create a card effect */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .card img {
+    width: 100%; /* Ensures full width of the container */
+    height: 400px; /* Fixed height for consistent appearance */
+    object-fit: cover; /* Crops images to fill the box and maintain aspect ratio */
+    display: block; /* Removes bottom space/gap in images */
   }
   
   /* Some left and right padding inside the container */
